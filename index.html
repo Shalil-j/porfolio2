@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body,h1{
+            font-family: 'Marcellus', serif;
+        }
+        body,h2{
+            font-family: 'Dancing Script', cursive;
+        }
+        body,p{
+            
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Marcellus&family=Poppins&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-gray-900 bg-cover bg-center text-white  ">
+    <header class="py-6 px-10 ">
+        <div class="container flex items-center justify-between mx-auto px-8 md:px-14  lg:px-16 w-full">
+            <div class="">
+                <img src="./assets/LOGO2w.png" alt="logo" class="h-20 lg:h-28">
+            </div>
+            <div class="hidden md:flex space-x-12 text-lg">
+                <a href="#" class="nav-dot selected-circle text-selected-text text-red-300 border-b-2 border-red-300 transition duration-300 ">Home</a>
+                <a href="#work" class="nav-dot hover:text-red-300 hover:border-b-2 border-red-300 transition duration-300 ">Work</a>
+                <a href="#about" class="nav-dot hover:text-red-300 hover:border-b-2 border-red-300 transition duration-300 ">About</a>
+                <a href="#contact" class="nav-dot hover:text-red-300 hover:border-b-2 border-red-300 transition duration-300 ">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!-- navbar -->
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14  lg:px-16 w-full">
+        <div class="flex-row sm:flex flex-wrap md:flex-nowrap">
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed xl:block" > 
+                <div class="absolute invisible md:visible left-50 transform translate-x-1/2 space-y-6">
+                    <a href="#" class="block w-7 group h-7 rounded-full border-4 p-1 border-gray-400 active:bg-red-300">
+                        <span class=" bg-black px-2 py-1 rounded-md opacity-0 text-center ml-10 group-hover:opacity-50">
+                            Home
+                        </span>
+                    </a>
+                    <a href="#work" class="block w-7 group h-7 rounded-full border-4 p-1 border-gray-400 active:bg-red-300">
+                        <span class=" bg-black px-2 py-1 rounded-md opacity-0 text-center ml-10 group-hover:opacity-50">
+                            Work
+                        </span>
+                    </a>
+                    <a href="#about" class="block w-7 group h-7 rounded-full border-4 p-1 border-gray-400 active:bg-red-300">
+                        <span class=" bg-black px-2 py-1 rounded-md opacity-0 text-center ml-10 group-hover:opacity-50">
+                           About
+                        </span>
+                    </a>
+                    <a href="#contact" class="block w-7 group h-7 rounded-full border-4 p-1 border-gray-400 active:bg-red-300">
+                        <span class=" bg-black px-2 py-1 rounded-md opacity-0 text-center ml-10 group-hover:opacity-50">
+                            Contact
+                        </span>
+                    </a>
+                </div>
+            </nav>
+            <div class="flex flex-wrap lg:ml-20   px-auto md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold  mx-auto text-5xl md:text-6xl  md:text-left">
+                    Hii
+                    I'm a <br>
+                    <span class="font-light text-8xl md:text-9xl text-red-300" style="font-family: 'Dancing Script', cursive;">Shalil.j</span>
+                    <p class="font-thin text-sm md:text-xl">& I'm a Beginner in software Engineer</p><br>
+                    <a href="#about" class="text-sm font-thin hover:border-b-2 border-red-300">Want to now more?</a>
+                </h1>
+                
+            </div>
+        </div>
+        <img src="./assets/me.jpg" alt="me" class="w-auto h-60 ml-10  md:ml-0 rounded-full md:rounded-md md:h-3/5 mr-20  mt-12 md:absolute md:mt-0 right-0 -z-10">
+    </div>
+
+    <!-- landing -->
+    <div class="container mt-64 md:ml-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h1 id="work" class="font-bold text-6xl text-center md:text-left">ShowCase</h1>
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+                <div>
+                    <img src="./assets/p1.png" class="h-60 ">
+                    <h1 class="text-xl mt-3 rounded-lg font-semibold">WA Solution</h1>
+                    <p>A E-Learning platform which is develop using nextjs</p>
+                <a href="https://deluxe-empanada-babd92.netlify.app" class="text-sm text-gray-700
+                 hover:text-red-300">live</a>
+                </div>
+                <div class="">
+                    <img src="./assets/google.png" alt="project1" class="h-60">
+                <h1 class="text-xl mt-3 font-semibold">Google-clone</h1>
+                <p>Google-Clone which is develop using nextjs</p>
+                <a href="/" class="hidden text-sm text-gray-700
+                 hover:text-red-300">live</a>
+                </div>
+                <div class="">
+                    <img src="./assets/p2.png" alt="project1" class="w-[480px] md:w-auto h-60">
+                <h1 class="text-xl mt-3 font-semibold">QR Attandence</h1>
+                <p>A Web base QR attendence system which is develop using nextjs</p>
+                <a href="/" class="hidden text-sm text-gray-700
+                 hover:text-red-300">live</a>
+                
+            </div>
+        </section>
+    </div>
+<!-- work -->
+<div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div class="flex flex-wrap md:flex-nowrap">
+<div class="flex flex-wrap  lg:ml-10 justify-center md:justify-start max-w-xl mt-20 md:my-36">
+    <h1 id="about" class="font-bold text-6xl text-center md:text-left">About</h1>
+    <p class="font-bold mt-10 text-2xl md:text-4xl lg:text-5xl text-center md:text-left"> A Mumbai based <br><span class="text-red-300">
+        UX/UI designer,Developer,Graphic Designer</span><br>
+        Currently working with WhizzAct <br>
+        </p>
+        <p class="mt-5 text-xl">
+        I am 22 years old and i love design <br> and development at an eatly age,so <br> I've dedicated my life to it
+        I graduated <br> from Mumbai University in 2021</p>
+    
+</div>
+<img src="./assets/Untitled-11.png"  class="h-80  ml-20 md:mt-40 ">
+</div>
+</div>
+<!-- about -->
+
+<div class="bg-red-300 text-black mt-10">
+    <img src="./assets/LOGO2.png" class="h-60 p-10">
+    <div class="md:flex">
+        <div class=" p-14 md:w-2/5 border-r-2">
+            <form action="">
+                <div class="relative z-0 mb-6 w-full group">
+                    <input type="email" name="floating_email" class="block py-2.5 px-0 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-900 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-red-500 peer" placeholder=" " required />
+                    <label for="floating_email" class="absolute text-sm text-gray-900 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                </div>
+                <div class="relative z-0 mb-6 w-full group">
+                    <input type="text" name="floating_email" class="block py-2.5 px-0 w-full text-lg text-gray-200 bg-transparent border-0 border-b-2 border-gray-900 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-red-500 peer" placeholder=" " required />
+                    <label for="floating_email" class="absolute text-sm text-gray-900 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+                </div>
+                <div class="relative z-0 mb-6 w-full group">
+                    <input type="text" name="floating_email" class="block py-2.5 px-0 w-full text-lg text-gray-200 bg-transparent border-0 border-b-2 border-gray-900 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-red-500 peer" placeholder=" " required />
+                    <label for="floating_email" class="absolute text-sm text-gray-900 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                </div>
+                <button>
+                    send
+                </button>
+            </form>
+        </div>
+        <div class="pl-10 mt-2">
+            <h1 id="contact" class="text-5xl font-thin ">Contact</h1>
+            <p class="text-gray-700">interested in working <br> together?</p>
+            <p class="pt-3">get strated!</p>
+            <p>shaliljaiswar@gmail.com</p>
+            <p>+91-7715-934-330</p>
+            <div class="mt-10 pl-10 text-xl flex space-x-5 pb-10">
+                <a href="https://www.instagram.com/sha_x_lil/" class="hover:border-b-2 border-gray-500"><p>INSTAGRAM</p></a>
+                <a href="https://www.linkedin.com/in/shaxlil/" class="hover:border-b-2 border-gray-500"><p>LINKEDIN</p></a>
+                <a href="https://github.com/Shalil-j" class="hover:border-b-2 border-gray-500"><p>GITHUB</p></a>
+
+            </div>
+            <a href="#" class=" absolute   right-5 flex  mb-5 text-white font-semibold mr-5 text-xl bg-gray-900 px-6 py-7 rounded-full">TOP</a>
+        </div>
+    </div>
+</div>
+    
+
+<script>
+    function updateList() {
+	const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
+		return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
+	});
+
+	document.querySelectorAll(".selected-circle").forEach(c => c.classList.remove("selected-circle"));
+	
+	document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
+}
+
+updateList();
+window.addEventListener('scroll', () => {
+    updateList();
+})
+</script>
+    
+</body>
+</html>
